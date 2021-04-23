@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icon/user.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Регистрация</title>
+</head>
+
+<body>
+    <nav class="#00796b teal darken-2">
+        <div class="nav-wrapper">
+            <!-- <header class="site-header">
+                <div class="container">
+                    <div class="row"> -->
+            <a href="#!" class="brand-logo">Сайт</a>
+
+            <ul class="right hide-on-med-and-down">
+                <!-- <div class="col l2"> -->
+                <button class="modal-show waves-effect waves-light btn waves-effect waves-light btn" data-modal="#sign-up">Регистрация</button>
+                <!-- </div> -->
+                <!-- <div class="col l2"> -->
+                <button class="modal-show waves-effect waves-light btn" data-modal="#log-in">Вход</button>
+                <!-- </div> -->
+            </ul>
+            <!-- </div>
+                </div>
+            </header> -->
+        </div>
+    </nav>
+    <div class="modal-wrap hide" id="sign-up">
+        <div class="modal-pro sign-up-modal">
+            <div class="form-slider-wrapper">
+                <div class="form-slider">
+                    <div class="left-50">
+                        <form>
+                            <div class="col l10">
+                                <h1 class="site-title">Регистрация</h1>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col l6">
+                                    <input placeholder="Имя" name="name" id="form-name" type="text">
+                                    <label for="form-name">Имя</label>
+                                </div>
+                                <div class="input-field col l6">
+                                    <input placeholder="Пароль" name="pass" id="form-pass" type="password">
+                                    <label for="form-pass">Пароль</label>
+                                </div>
+                                <div class="input-field col l6">
+                                    <input placeholder="Email" name="email" id="form-email" type="text">
+                                    <label for="form-email">Email</label>
+                                </div>
+                                <div class="input-field col l6">
+                                    <input placeholder="День рождения" id="form-birthday" name="birthday" type="text" class="datepicker">
+                                    <label for="form-birthday">День рождения</label>
+                                </div>
+                                <div class="col l12">
+                                    Пол
+                                    <p><label><input type="radio" value="male" name="sex" checked class="sex" ><span>Мужской</span></label>
+                                    </p>
+                                    <p><label><input type="radio" value="female" name="sex" class="sex" ><span>Женский</span></label>
+                                    </p>
+                                </div>
+                                <div class="col l6">
+                                    <p>
+                                        <label>
+                                          <input type="checkbox" id="agre-rules" />
+                                          <span>Согласие</span>
+                                        </label>
+                                    </p>
+                                </div>
+                                <div class="col l6">
+                                    <p class="read-rules"><strong>Прочитать правила</strong></p>
+                                </div>
+                                <div class="col l12 right-align">
+                                    <button id="form-submit" class="waves-effect waves-light btn disabled"><i class="material-icons right">assignment_returned</i>Отправить</button>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="modal-pro-close btn-floating waves-effect waves-light #4db6ac teal lighten-2"><i class="material-icons">close</i></button>
+                    </div>
+                    <div class="right-50">
+                        <p class="read-rules-back"><strong>Назад</strong></p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, nobis.</p>
+                        <img src="img/icon/user.png" width="50px">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita dicta magnam libero a nesciunt alias aut ipsum maxime deserunt modi?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime soluta corrupti quos reprehenderit, autem doloribus eius repellendus placeat alias molestiae beatae iusto reiciendis quas laboriosam rerum, quod quibusdam. Eius voluptas
+                            necessitatibus non minus itaque pariatur doloribus iure quia, architecto, vero, possimus iusto consequatur esse quis vitae repellendus odit? Temporibus, eligendi.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita ipsa quia, numquam tempora est minus!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-wrap hide" id="log-in">
+        <div class="modal-pro">
+            <h2 class="site-title">Вход</h2>
+            <form>
+                <div class="row">
+                    <div class="input-field col l12">
+                        <input placeholder="Ваш email" name="email" id="login-email" type="text" class="validate">
+                        <label for="login-email">Email</label>
+                    </div>
+                    <div class="input-field col l12">
+                        <input placeholder="Пароль" name="pass" id="login-pass" type="password">
+                        <label for="login-pass">Password</label>
+                    </div>
+                    <div class="col l12 right-align">
+                        <button id="login-submit" class="waves-effect waves-light btn">
+                    <i class="material-icons right">assignment_returned</i>
+                    Войти
+                  </button>
+                    </div>
+                </div>
+            </form>
+            <button class="modal-pro-close btn-floating waves-effect waves-light #4db6ac teal lighten-2"><i class="material-icons">close</i></button>
+        </div>
+    </div>
+
+    <script src="script/materialize.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
