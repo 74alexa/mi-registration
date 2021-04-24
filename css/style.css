@@ -1,3 +1,30 @@
+html,
+body,
+div,
+
+/*ul,
+ol,
+li,*/
+
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+fieldset,
+input {
+    margin: 0;
+    padding: 0;
+}
+
 .user-cabinet-header {
     font-size: 25px;
 }
@@ -129,15 +156,30 @@ nav .brand-logo {
     width: 1000px;
 }
 
-.MiniPostAllFormDop {
-    float: left;
-    margin: 0px 10px;
-    position: relative;
-}
 
-.MiniPostAllForm {
+/* .MiniPostAllFormDop {
+    margin: 0px 10px;
+} */
+
+
+/* /* .MiniPostAllForm {
+    /* width: 152px;
+    height: 280px; 
+    float: right;
+    position: absolute;
     width: 152px;
-    height: 280px;
+    height: 220px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 3px;
+    box-shadow: 0 1px 4px 0 #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
 .MiniPost {
@@ -155,4 +197,54 @@ nav .brand-logo {
     font-size: 12px;
     font-weight: 600;
     line-height: 16px;
+}  */
+
+
+/* 
+.cardy {
+    width: 152px;
+    height: 220px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 3px;
+    box-shadow: 0 1px 4px 0 #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
+
+.cardy img {
+    width: 152px;
+    height: 220px;
+    overflow: hidden;
+    margin-bottom: 3px;
+    border-radius: 3px;
+} */
+
+.cardy {
+    width: 980px;
+    margin-left: 100px;
+    margin: 0 auto;
+}
+
+.card-block1 {
+    width: 152px;
+    height: 220px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 3px;
+    box-shadow: 0 1px 4px 0 #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.card-block2 {}
