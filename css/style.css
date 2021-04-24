@@ -115,3 +115,44 @@ nav .brand-logo {
 .form-slider-wrapper {
     overflow: hidden;
 }
+
+.CenterBlockExForm {
+    display: block;
+    background: #ffffff;
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.CenterBlock {
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 1000px;
+}
+
+.MiniPostAllFormDop {
+    float: left;
+    margin: 0px 10px;
+    position: relative;
+}
+
+.MiniPostAllForm {
+    width: 152px;
+    height: 280px;
+}
+
+.MiniPost {
+    overflow: hidden;
+    margin-bottom: 3px;
+    box-shadow: 0 1px 4px 0 #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.MiniPostName a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
