@@ -11,8 +11,6 @@ function getArtistData(result) {
     let out = '';
     for (let key in result) {
 
-
-
         // console.log(result);
         // for (let key in result) {
         //     // result = JSON.parse(result)
@@ -41,6 +39,10 @@ function tur(event) {
     localStorage.setItem("id", idOn);
     console.log(localStorage.getItem("id"));
     window.location.href = 'biografi.html';
+    // setTimeout(function() {
+    //     window.location.href = 'biografi.html';
+    // }, 1000)
+
 }
 
 // function bur(event) {

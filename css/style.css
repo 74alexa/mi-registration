@@ -156,75 +156,6 @@ nav .brand-logo {
     width: 1000px;
 }
 
-
-/* .MiniPostAllFormDop {
-    margin: 0px 10px;
-} */
-
-
-/* /* .MiniPostAllForm {
-    /* width: 152px;
-    height: 280px; 
-    float: right;
-    position: absolute;
-    width: 152px;
-    height: 220px;
-    border: 1px solid black;
-    float: left;
-    text-align: center;
-    margin-top: 60px;
-    margin-right: 10px;
-    text-align: center;
-    margin-bottom: 3px;
-    box-shadow: 0 1px 4px 0 #000;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-
-.MiniPost {
-    overflow: hidden;
-    margin-bottom: 3px;
-    box-shadow: 0 1px 4px 0 #000;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-
-.MiniPostName a {
-    color: black;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 16px;
-}  */
-
-
-/* 
-.cardy {
-    width: 152px;
-    height: 220px;
-    border: 1px solid black;
-    float: left;
-    text-align: center;
-    margin-top: 60px;
-    margin-right: 10px;
-    text-align: center;
-    margin-bottom: 3px;
-    box-shadow: 0 1px 4px 0 #000;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-
-.cardy img {
-    width: 152px;
-    height: 220px;
-    overflow: hidden;
-    margin-bottom: 3px;
-    border-radius: 3px;
-} */
-
 .cardy {
     width: 980px;
     margin-left: 100px;
@@ -247,4 +178,247 @@ nav .brand-logo {
     border-radius: 3px;
 }
 
-.card-block2 {}
+.outBio {
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 1000px;
+}
+
+goods-out {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+goods-out::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.FullstoryFormLeftAct {
+    border-radius: 3px;
+    float: left;
+    margin-bottom: 10px;
+    width: 180px;
+    height: 285px;
+}
+
+.FullstoryFormRightAct {
+    position: relative;
+    float: right;
+    margin-left: 20px;
+    width: 800px;
+    overflow: hidden
+}
+
+.FullstoryInfo {
+    margin-bottom: 12px;
+}
+
+.FullstoryInfoTitle {
+    float: left;
+    margin: 0;
+    padding: 2px 0 2px 20px;
+    width: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    min-height: 18px;
+}
+
+.FullstoryInfoTitleAct {
+    float: left;
+    margin: 0;
+    padding: 2px 0 2px 0;
+    font-size: 13px;
+    font-weight: bold;
+    min-height: 18px;
+}
+
+.FullstoryInfoin {
+    margin-left: 100px;
+    padding: 2px 0 2px 0;
+    min-height: 18px;
+    color: #a4a4a4;
+}
+
+.FullstoryInfoAge {
+    margin-left: 100px;
+    min-height: 15px;
+    color: #a4a4a4;
+}
+
+.FullstoryInfoinAct {
+    margin-left: 150px;
+    padding: 2px 0 2px 0;
+    min-height: 18px;
+}
+
+.FullstoryInfoin a:hover {
+    text-decoration: underline;
+}
+
+.FullstoryInfoinImg img {
+    margin: 4px 0 0;
+}
+
+FullstoryKadrFormAct {
+    margin: 0 0 15px 0;
+    overflow: hidden;
+    padding: 10px 0 10px 0;
+    height: 109px;
+}
+
+.FullstorySubFormTitle,
+.FullstoryKadrFormTitle {
+    margin: 0 0 6px 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.FullstorySubFormText {
+    display: block;
+    text-align: justify;
+}
+
+.FullstorySubFormText br {
+    margin-bottom: 6px;
+}
+
+.contain {
+    position: relative;
+    padding: 15px 25px;
+    background: #ffffff
+}
+
+.view-caption {
+    font-family: 'PF DinDisplay Medium', 'Trebuchet MS', Arial;
+    line-height: 30px;
+    font-size: 25px
+}
+
+.view-caption2 {
+    font-family: 'PF DinDisplay Medium', 'Trebuchet MS', Arial;
+    line-height: 18px;
+    font-size: 16px;
+    color: #929292
+}
+
+.view-caption3 {
+    font-family: 'PF DinDisplay Medium', 'Trebuchet MS', Arial;
+    line-height: 18px;
+    font-size: 12px;
+    color: #929292;
+    float: right;
+    margin-right: 100px;
+}
+
+.view-caption4 {
+    font-family: 'PF DinDisplay Medium', 'Trebuchet MS', Arial;
+    line-height: 18px;
+    font-size: 12px;
+    color: #929292
+}
+
+.input-width {
+    height: 23px;
+    border: 1px solid #999;
+    background: #fff;
+}
+
+.width-setter {
+    height: 23px;
+    margin: 0 9px;
+}
+
+.width-setter input {
+    width: 100%;
+    height: 14px;
+    padding: 4px 9px 5px;
+    margin: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+    border: 0 none;
+    background: #9C6;
+}
+
+img[tabindex="0"] {
+    cursor: zoom-in;
+}
+
+img[tabindex="0"]:focus {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    max-width: 99%;
+    max-height: 99%;
+    margin: auto;
+    box-shadow: 0 0 20px #000, 0 0 0 1000px rgba(210, 210, 210, .4);
+}
+
+img[tabindex="0"]:focus,
+
+/* убрать строку, если не нужно, чтобы при клике на увеличенное фото, оно возвращалось в исходное состояние */
+
+img[tabindex="0"]:focus~* {
+    pointer-events: none;
+    cursor: zoom-out;
+}
+
+.zadiac img {
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+    height: 44px;
+    margin: -40px 15px 0 10px;
+    width: 44px;
+    padding: 0;
+    position: relative;
+    top: 80px;
+    right: 15%;
+    z-index: 1;
+}
+
+.naVi {
+    position: fixed;
+    top: 110px;
+    right: 40px;
+    font-size: 20px;
+}
+
+.naVi a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 15px;
+    background-color: #f25600;
+    padding: 7px;
+    text-align: center;
+    position: relative;
+    /* display: inline-block; */
+    width: 50px;
+    height: 2.5em;
+    line-height: 2.5em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #F64C2B;
+    border-radius: 5px;
+    background: linear-gradient(#26a69a, #26a65a 48%, #26a60a 52%, #26a69a);
+}
+
+.naVi a:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, .05) inset;
+}

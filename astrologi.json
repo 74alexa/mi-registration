@@ -1,0 +1,98 @@
+{
+    "Овен": {
+        "name": "Овен",
+        "month1": "3",
+        "month2": "4",
+        "deys1": "21",
+        "deys2": "19",
+        "logo_img": "./astro_img/astro_aries.png"
+    },
+    "Телец": {
+        "name": "Телец",
+        "month1": "4",
+        "month2": "5",
+        "deys1": "20",
+        "deys2": "20",
+        "logo_img": "./astro_img/astro_taurus.png"
+    },
+    "Близнецы": {
+        "name": "Близнецы",
+        "month1": "5",
+        "month2": "6",
+        "deys1": "21",
+        "deys2": "21",
+        "logo_img": "./astro_img/astro_gemini.png"
+    },
+    "Рак": {
+        "name": "Рак",
+        "month1": "6",
+        "month2": "7",
+        "deys1": "22",
+        "deys2": "22",
+        "logo_img": "./astro_img/astro_cancer.png"
+    },
+    "Лев": {
+        "name": "Лев",
+        "month1": "7",
+        "month2": "8",
+        "deys1": "23",
+        "deys2": "22",
+        "logo_img": "./astro_img/astro_leo.png"
+    },
+    "Дева": {
+        "name": "Дева",
+        "month1": "8",
+        "month2": "9",
+        "deys1": "23",
+        "deys2": "22",
+        "logo_img": "./astro_img/astro_virgo.png"
+    },
+    "Весы": {
+        "name": "Весы",
+        "month1": "9",
+        "month2": "10",
+        "deys1": "23",
+        "deys2": "23",
+        "logo_img": "./astro_img/astro_libra.png"
+    },
+    "Скорпион": {
+        "name": "Скорпион",
+        "month1": "10",
+        "month2": "11",
+        "deys1": "24",
+        "deys2": "22",
+        "logo_img": "./astro_img/astro_scorpio.png"
+    },
+    "Стрелец": {
+        "name": "Стрелец",
+        "month1": "11",
+        "month2": "12",
+        "deys1": "23",
+        "deys2": "21",
+        "logo_img": "./astro_img/astro_sagittarius.png"
+    },
+    "Козерог": {
+        "name": "Козерог",
+        "month1": "12",
+        "month2": "1",
+        "deys1": "22",
+        "deys2": "20",
+        "logo_img": "./astro_img/astro_capricorn.png"
+    },
+    "Водолей": {
+        "name": "Водолей",
+        "month1": "1",
+        "month2": "2",
+        "deys1": "21",
+        "deys2": "18",
+        "logo_img": "./astro_img/astro_aquarius.png"
+    },
+    "Рыбы": {
+        "name": "Рыбы",
+        "month1": "2",
+        "month2": "3",
+        "deys1": "19",
+        "deys2": "20",
+        "logo_img": "./astro_img/astro_pisces.png"
+    }
+}
