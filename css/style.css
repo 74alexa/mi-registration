@@ -383,7 +383,8 @@ img[tabindex="0"]:focus~* {
     position: relative;
     top: 80px;
     right: 15%;
-    z-index: 1;
+    z-index: 2;
+    transition: transform 1s;
 }
 
 .naVi {
@@ -421,4 +422,37 @@ img[tabindex="0"]:focus~* {
     top: .1em;
     left: .1em;
     box-shadow: 0 0 0 60px rgba(0, 0, 0, .05) inset;
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.tooltip {
+    position: absolute;
+    width: 100px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid rgb(143, 56, 56);
+    background: #c5c909;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, 8px 8px 13.5px #800;
+    border-radius: 5px;
+    left: 77%;
+    transform: translateX(-50%);
+    top: -20px;
+    opacity: 0;
+    transition: top .8s, opacity .5s;
+}
+
+.zadiac:hover img {
+    transform: rotate(360deg);
+}
+
+.zadiac:hover .tooltip {
+    top: 120px;
+    left: 77%;
+    z-index: 1;
+    opacity: 1;
 }

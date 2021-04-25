@@ -24,8 +24,6 @@ setTimeout(function() {
         if (this_month == (4 || 6 || 9 || 11) && date > 30) value = "Неверная дата!";
         console.log(value);
         der = value;
-
-        console.log(der);
     }
 
     function init_z() {
@@ -36,11 +34,10 @@ setTimeout(function() {
 
             let out = '';
 
-            out += `<a><img src="${data[der].logo_img}" alt="" zodiac="${data[der].name}"></a>`;
+            out += `<div class="tooltip">${der}</div>`;
+            out += `<img src="${data[der].logo_img}" />`;
 
             $('.zadiac').html(out);
-            console.log(data['Водолей']);
-
         }
     }
     init_z();

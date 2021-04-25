@@ -25,13 +25,13 @@ function getBiografiData(result) {
     out += `<h4 class="FullstoryInfoTitleAct">Жанры:</h4><p class="FullstoryInfoinAct">${result.genres}</p><br/>`;
     out += `<h4 class="FullstoryInfoTitleAct">Всего фильмов:</h4><p class="FullstoryInfoinAct">${result.total_movies}</p>`;
     out += `</div>`;
-    out += `<div class="FullstoryKadrFormAct"><img src="${result.img1}" alt="" width="130" tabindex="0">`;
-    out += `<img src="${result.img2}" alt="" width="130" tabindex="0">`;
-    out += `<img src="${result.img3}" alt="" width="130" tabindex="0">`;
-    out += `<img src="${result.img4}" alt="" width="130" tabindex="0">`;
-    out += `<img src="${result.img5}" alt="" width="130" tabindex="0">`;
-    out += `<img src="${result.img6}" alt="" width="130" tabindex="0"></div>`;
-    out += `<div class="FullstorySubFormTitle">Интересные факты: </div><div class="FullstorySubFormText">${result.facts}</div><br/>`;
+    out += `<div class="FullstoryKadrFormAct"><img src="${result.imge1}" alt="" width="130" tabindex="0">`;
+    out += `<img src="${result.imge2}" alt="" width="130" tabindex="0">`;
+    out += `<img src="${result.imge3}" alt="" width="130" tabindex="0">`;
+    out += `<img src="${result.imge4}" alt="" width="130" tabindex="0">`;
+    out += `<img src="${result.imge5}" alt="" width="130" tabindex="0">`;
+    out += `<img src="${result.imge6}" alt="" width="130" tabindex="0"></div>`;
+    out += `<div class="FullstorySubFormTitle">Интересные факты: </div><div class="FullstorySubFormText">${result.fact}</div><br/>`;
     out += `</div></div>`;
 
     document.querySelector('.outBio').innerHTML = out;
