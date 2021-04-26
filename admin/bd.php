@@ -77,6 +77,7 @@ function updateGoods()
     $nameEn = $_POST['nameEn'];
     $img_log = $_POST['img_log'];
     $career = $_POST['career'];
+    $rost = $_POST['rost'];
     $date_of_birth = $_POST['date_of_birth'];
     $price_of_birth = $_POST['price_of_birth'];
     $genres = $_POST['genres'];
@@ -89,7 +90,7 @@ function updateGoods()
     $imge6 = $_POST['imge6'];
     $fact = $_POST['fact'];
 
-    $sql = "UPDATE biografi SET nameRu='$nameRu', nameEn='$nameEn',img_log='$img_log', career='$career', date_of_birth='$date_of_birth',  price_of_birth='$price_of_birth', genres='$genres', total_movies='$total_movies',imge1='$imge1', imge2='$imge2', imge3='$imge3', imge4='$imge4', imge5='$imge5', imge6='$imge6', fact='$fact' WHERE id='$id' ";
+    $sql = "UPDATE biografi SET nameRu='$nameRu', nameEn='$nameEn',img_log='$img_log', career='$career', rost='$rost',date_of_birth='$date_of_birth',  price_of_birth='$price_of_birth', genres='$genres', total_movies='$total_movies',imge1='$imge1', imge2='$imge2', imge3='$imge3', imge4='$imge4', imge5='$imge5', imge6='$imge6', fact='$fact' WHERE id='$id' ";
     if (mysqli_query($conn, $sql)) {
         echo "ok";
     } else {
@@ -106,6 +107,7 @@ function newGoods()
     $nameEn = $_POST['nameEn'];
     $img_log = $_POST['img_log'];
     $career = $_POST['career'];
+    $rost = $_POST['rost'];
     $date_of_birth = $_POST['date_of_birth'];
     $price_of_birth = $_POST['price_of_birth'];
     $genres = $_POST['genres'];
@@ -124,8 +126,8 @@ function newGoods()
     // } else {
     //     echo "Error updating record: " . mysqli_error($conn);
     // }
-    $sql = "INSERT INTO biografi (nameRu, nameEn,img_log, career, date_of_birth, price_of_birth, genres, total_movies,imge1, imge2, imge3, imge4, imge5, imge6, fact)
-    VALUES ('$nameRu', '$nameEn','$img_log', '$career', '$date_of_birth','$price_of_birth', '$genres', '$total_movies','$imge1','$imge2', '$imge3', '$imge4', '$imge5', '$imge6', '$fact')";
+    $sql = "INSERT INTO biografi (nameRu, nameEn,img_log, career, rost, date_of_birth, price_of_birth, genres, total_movies,imge1, imge2, imge3, imge4, imge5, imge6, fact)
+    VALUES ('$nameRu', '$nameEn','$img_log', '$career', '$rost, '$date_of_birth','$price_of_birth', '$genres', '$total_movies','$imge1','$imge2', '$imge3', '$imge4', '$imge5', '$imge6', '$fact')";
 
     if ($conn->query($sql) === TRUE) {
         echo "ok";

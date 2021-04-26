@@ -23,4 +23,3 @@ if ($conect->query($sql) === TRUE) {
 }
 
 $conect->close();
-?>

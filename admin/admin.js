@@ -34,6 +34,7 @@ function selectGoods() {
             $('#nameEn').val(data.nameEn);
             $('#img_log').val(data.img_log);
             $('#career').val(data.career);
+            $('#rost').val(data.rost);
             $('#date_of_birth').val(data.date_of_birth);
             $('#price_of_birth').val(data.price_of_birth);
             $('#genres').val(data.genres);
@@ -61,6 +62,7 @@ function saveToDb() {
                 "nameEn": $('#nameEn').val(),
                 "img_log": $('#img_log').val(),
                 "career": $('#career').val(),
+                "rost": $('#rost').val(),
                 "date_of_birth": $('#date_of_birth').val(),
                 "price_of_birth": $('#price_of_birth').val(),
                 "genres": $('#genres').val(),
@@ -91,6 +93,7 @@ function saveToDb() {
                 "nameEn": $('#nameEn').val(),
                 "img_log": $('#img_log').val(),
                 "career": $('#career').val(),
+                "rost": $('#rost').val(),
                 "date_of_birth": $('#date_of_birth').val(),
                 "price_of_birth": $('#price_of_birth').val(),
                 "genres": $('#genres').val(),

@@ -10,17 +10,32 @@ function getBiografiData(result) {
     result = JSON.parse(result)
     console.log(result);
     localStorage.setItem("birth", result.date_of_birth);
+    let dete = new Date;
+    dete = dete.getFullYear()
+    let eyw = result.date_of_birth.split("-");
+    let aqw = dete - eyw[0];
+    let lete = "";
+    if (aqw >= 5 && aqw <= 20 || aqw >= 25 && aqw <= 30 || aqw >= 35 && aqw <= 40 || aqw >= 45 && aqw <= 50 || aqw >= 55 && aqw <= 60 || aqw >= 65 && aqw <= 70 || aqw >= 75 && aqw <= 80 || aqw >= 85 && aqw <= 90 || aqw >= 95 && aqw <= 100 || aqw >= 105 && aqw <= 120) {
+        lete = "лет";
+    } else if (aqw == 1 || aqw == 21 || aqw == 31 || aqw == 41 || aqw == 51 || aqw == 61 || aqw == 71 || aqw == 81 || aqw == 91 || aqw == 101 || aqw == 121) {
+        lete = "год";
+    } else {
+        lete = "года";
+    }
+    console.log(lete);
     let out = '';
     // for (let key in result) {
-    console.log(`${result.nameRu}`);
+
     out += `<div class="contain">`;
+    out += `<title>${result.nameRu}</title>`
     out += `<h1 class="view-caption">${result.nameRu}</h1><br/>`;
     out += `<h1 class="view-caption2">${result.nameEn}</h1><br/>`;
     out += `</div>`;
-    out += `<div class="FullstoryFormLeftAct"><img src="${result.img_log}" alt=""></div><br/>`;
+    out += `<div class="FullstoryFormLeftAct"><img src="${result.img_log}" width = "180px" alt=""></div><br/>`;
     out += `<div class="FullstoryFormRightAct">`;
     out += `<div class= "FullstoryInfo"><h4 class = "FullstoryInfoTitleAct">Карьера:</h4><p class="FullstoryInfoinAct">${result.career}</p><br/>`;
-    out += `<h4 class="FullstoryInfoTitleAct">Дата рождения:</h4><p class="FullstoryInfoinAct">${result.date_of_birth}</p><br/>`;
+    out += `<h4 class="FullstoryInfoTitleAct">Рост:</h4><p class="FullstoryInfoinAct">${result.rost} м</p><br/>`;
+    out += `<h4 class="FullstoryInfoTitleAct">Дата рождения:</h4><p class="FullstoryInfoinAct">${result.date_of_birth} 	&bull; ${aqw} ${lete}</p><br/>`;
     out += `<h4 class="FullstoryInfoTitleAct">Место рождения:</h4><p class="FullstoryInfoinAct">${result.price_of_birth}</p><br/>`;
     out += `<h4 class="FullstoryInfoTitleAct">Жанры:</h4><p class="FullstoryInfoinAct">${result.genres}</p><br/>`;
     out += `<h4 class="FullstoryInfoTitleAct">Всего фильмов:</h4><p class="FullstoryInfoinAct">${result.total_movies}</p>`;
