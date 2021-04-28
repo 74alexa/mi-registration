@@ -127,7 +127,7 @@ function newGoods()
     //     echo "Error updating record: " . mysqli_error($conn);
     // }
     $sql = "INSERT INTO biografi (nameRu, nameEn,img_log, career, rost, date_of_birth, price_of_birth, genres, total_movies,imge1, imge2, imge3, imge4, imge5, imge6, fact)
-    VALUES ('$nameRu', '$nameEn','$img_log', '$career', '$rost, '$date_of_birth','$price_of_birth', '$genres', '$total_movies','$imge1','$imge2', '$imge3', '$imge4', '$imge5', '$imge6', '$fact')";
+    VALUES ('$nameRu', '$nameEn','$img_log', '$career', '$rost', '$date_of_birth','$price_of_birth', '$genres', '$total_movies','$imge1','$imge2', '$imge3', '$imge4', '$imge5', '$imge6', '$fact')";
 
     if ($conn->query($sql) === TRUE) {
         echo "ok";

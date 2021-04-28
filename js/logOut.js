@@ -7,3 +7,6 @@ document.querySelector('#logout').onclick = function() {
     document.cookie = `${kuc}; expires=${expires}; path=/`;
     location.reload();
 }
+document.querySelector('#lognew').onclick = function() {
+    window.location.href = './admin/admin.php';
+}

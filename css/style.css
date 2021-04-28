@@ -288,7 +288,8 @@ FullstoryKadrFormAct {
 .contain {
     position: relative;
     padding: 15px 25px;
-    background: #ffffff
+    background: #ffffff;
+    z-index: -9999;
 }
 
 .view-caption {

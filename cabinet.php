@@ -27,9 +27,12 @@ if (!isset($_COOKIE['email']) or trim($_COOKIE['email']) == '') {
       <div class="goodout"></div><br />
     </div>
     <div class="col l12 right-align">
-      <button id="logout" class="waves-effect waves-light btn"><i class="material-icons right">logout</i>выйти</button>
-    </div>
+      <button id="logout" class="waves-effect waves-light btn  left"><i class="material-icons right">logout</i>выйти</button>
 
+      <div class="col l12 right-align">
+        <button id="lognew" class="waves-effect waves-light btn"><i class="material-icons right">build</i>Править</button>
+      </div>
+    </div>
     <br />
     <hr />
     <div class="row">
